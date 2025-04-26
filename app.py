@@ -271,5 +271,5 @@ def update_sunburst(weights: List[float]) -> dict:
     return fig
 
 if __name__ == "__main__":
-    app.run(debug=True, dev_tools_props_check=False)
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get("PORT", 8050)))
 
