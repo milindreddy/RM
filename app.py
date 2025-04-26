@@ -37,7 +37,6 @@ ENV_CATEGORIES = [
 
 # Initialize application
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-server = app.server
 app.title = "Dietary Environmental Impact Analyzer"
 
 
